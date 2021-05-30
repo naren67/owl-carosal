@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>slider</title>
+          <link rel="stylesheet" href="./owl.carousel.min.css">
+          <link rel="stylesheet" href="./owl.theme.default.min.css">
+          <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+          <div class="owl-carousel owl-theme">
+                    <div class="item">
+                              <img src="./images/bartosz-klukaczewski-wGIvp6HWjY8-unsplash.jpg" alt="">
+                    </div>
+                    <div class="item">
+                              <img src="./images/erin-profaci-DyPIhyUtq_o-unsplash.jpg" alt="">
+                    </div>
+                    <div class="item">
+                              <img src="./images/gonzagraph-Nc48DyZknQc-unsplash.jpg" alt="">
+                    </div>
+                    <div class="item">
+                              <img src="./images/bartosz-klukaczewski-wGIvp6HWjY8-unsplash.jpg" alt="">
+                    </div>
+                    <div class="item">
+                               <img src="./images/erin-profaci-DyPIhyUtq_o-unsplash.jpg" alt="">
+                    </div>
+                    </div>
+          </div>
+
+
+
+
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+                    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+                    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+          <script src="./owl.carousel.js"></script>
+          <script src="./owl.carousel.min.js"></script>
+
+          <script>
+                    $('.owl-carousel').owlCarousel({
+                              loop: true,
+                              margin: 10,
+                              nav: true,
+                              // autoplay:true,
+                              // autoplayTimeout: 2000,
+                              stagePadding: 200,
+                              dots:true,
+                              responsive: {
+                                        0: {
+                                                  items: 1
+                                        },
+                                        600: {
+                                                  items: 3
+                                        },
+                                        1000: {
+                                                  items: 5
+                                        },
+                                        1400: {
+                                                  items: 3
+                                        }
+                              }
+                    })
+          </script>
+
+</body>
+
+</html>
